@@ -105,9 +105,9 @@
         <com.google.android.material.button.MaterialButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/btn_contact"
+            android:id="@+id/btn_contacts"
             style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-            android:text="Contact"
+            android:text="Contact Us"
             android:textColor="@color/primaryColor"
             app:icon="@drawable/ic_brocure"
             app:iconGravity="start"
