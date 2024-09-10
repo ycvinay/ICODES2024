@@ -1,0 +1,125 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:background="@color/primaryColor"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:elevation="8dp"
+        app:title="ICODES 2024"
+        app:titleTextColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp"
+        android:layout_marginTop="26dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_brochure"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:text="Brochure"
+            android:textColor="@color/primaryColor"
+            app:icon="@drawable/ic_brocure"
+            app:iconGravity="start"
+            app:iconPadding="16dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/white"
+            app:strokeColor="@color/primaryColor"
+            app:strokeWidth="2dp"
+            app:cornerRadius="16dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_submit_paper"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:text="Submit Paper"
+            android:textColor="@color/primaryColor"
+            app:icon="@drawable/ic_brocure"
+            app:iconGravity="start"
+            app:iconPadding="16dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/white"
+            app:strokeColor="@color/primaryColor"
+            app:strokeWidth="2dp"
+            app:cornerRadius="16dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_payment"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:text="Fee Payment"
+            android:textColor="@color/primaryColor"
+            app:icon="@drawable/ic_brocure"
+            app:iconGravity="start"
+            app:iconPadding="16dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/white"
+            app:strokeColor="@color/primaryColor"
+            app:strokeWidth="2dp"
+            app:cornerRadius="16dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_check_paper_status"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:text="Check Paper Status"
+            android:textColor="@color/primaryColor"
+            app:icon="@drawable/ic_brocure"
+            app:iconGravity="start"
+            app:iconPadding="16dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/white"
+            app:strokeColor="@color/primaryColor"
+            app:strokeWidth="2dp"
+            app:cornerRadius="16dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_messages"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:text="Messages"
+            android:textColor="@color/primaryColor"
+            app:icon="@drawable/ic_brocure"
+            app:iconGravity="start"
+            app:iconPadding="16dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/white"
+            app:strokeColor="@color/primaryColor"
+            app:strokeWidth="2dp"
+            app:cornerRadius="16dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_contact"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:text="Contact"
+            android:textColor="@color/primaryColor"
+            app:icon="@drawable/ic_brocure"
+            app:iconGravity="start"
+            app:iconPadding="16dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/white"
+            app:strokeColor="@color/primaryColor"
+            app:strokeWidth="2dp"
+            app:cornerRadius="16dp"/>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>
