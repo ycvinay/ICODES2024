@@ -118,6 +118,22 @@
             app:strokeWidth="2dp"
             app:cornerRadius="16dp"/>
 
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_Home"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:text="Home"
+            android:textColor="@color/primaryColor"
+            app:icon="@drawable/ic_brocure"
+            app:iconGravity="start"
+            app:iconPadding="16dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/white"
+            app:strokeColor="@color/primaryColor"
+            app:strokeWidth="2dp"
+            app:cornerRadius="16dp"/>
+
 
 
     </LinearLayout>
